@@ -11,7 +11,7 @@ public class Program4 {
         int c = 0;
         int d = 0;
         int sum = 0;
-        int avg = 0;
+        double avg = 0;
         
         System.out.println("Enter four three-digit-numbers.");
         System.out.print("Enter first number: ");
@@ -24,7 +24,7 @@ public class Program4 {
         d = myScanner.nextInt();
         
         sum = a + b + c + d;
-        avg = (a + b + c + d) / 4;
+        avg = (a + b + c + d) / 4; // Fix this line too
         System.out.println();
         System.out.println("The first number is: " + a);
         System.out.println("The second number is: " + b);
