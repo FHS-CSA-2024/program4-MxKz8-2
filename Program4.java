@@ -11,7 +11,7 @@ public class Program4 {
         int c = 0;
         int d = 0;
         int sum = 0;
-        int avg = 0;
+        double avg = 0;
         
         System.out.println("Enter four three-digit-numbers.");
         System.out.print("Enter first number: ");
@@ -24,7 +24,7 @@ public class Program4 {
         d = myScanner.nextInt();
         
         sum = a + b + c + d;
-        avg = (a + b + c + d) / 4;
+        avg = (double) (a + b + c + d) / 4;
         System.out.println();
         System.out.println("The first number is: " + a);
         System.out.println("The second number is: " + b);
@@ -36,7 +36,10 @@ public class Program4 {
         System.out.println("The average is: " + avg);
         System.out.println();
         System.out.println("This program was written by:");
-        System.out.print("Kyle Tan on 8/13/24 in 1st period");
+        System.out.println("Kyle Tan on 8/13/24 in 1st period");
+        System.out.println();
+        System.out.println("This program was fixed by:");
+        System.out.print("Kyle Tan on 10/29/24 in 1st period");
     }
 }
 
@@ -57,9 +60,12 @@ The fourth number is: 562
 
 The sum is: 2227
 
-The average is: 556
+The average is: 556.75
 
 This program was written by:
 Kyle Tan on 8/13/24 in 1st period
+
+This program was fixed by:
+Kyle Tan on 10/29/24 in 1st period
 
 */
